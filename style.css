@@ -1,0 +1,293 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+.header {
+  padding-top: 20px;
+  height: 700px;
+  background-image: url("background.jpg");
+}
+
+.hardwork {
+  color: red;
+  font-size: 35px;
+  animation: hardwork 10s ease-out infinite;
+  -webkit-clip-path: inset(0 100% 0 0);
+}
+
+@keyframes hardwork {
+  0% {
+    clip-path: inset(0 100% 0 0);
+  }
+
+  40% {
+    clip-path: inset(0 0 0 0);
+  }
+
+  70% {
+    clip-path: inset(0 0 0 0);
+  }
+
+  60% {
+    clip-path: inset(0 100% 0 0);
+  }
+  100% {
+    clip-path: inset(0 100% 0 0);
+  }
+}
+
+.hi {
+  color: whitesmoke;
+  font-size: 60px;
+  position: relative;
+  animation: hi-para 5s ease-in-out infinite alternate;
+}
+
+@keyframes hi-para {
+  from {
+    top: -20px;
+  }
+
+  to {
+    top: 20px;
+  }
+}
+
+.frontend {
+  color: rgb(70, 243, 70);
+  font-size: 35px;
+}
+
+.hi,
+.hardwork,
+.frontend {
+  text-align: center;
+}
+
+.about {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.btn {
+  border: 5px solid rgb(250, 250, 250);
+  font-size: 32px;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 15%;
+  color: aliceblue;
+  background-color: rgb(207, 104, 19);
+}
+
+.btn:hover {
+  background-color: rgb(168, 81, 9);
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.icons {
+  margin-top: 30px;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+
+.introduction-section {
+  background-color: rgb(238, 231, 231);
+  height: 500px;
+  margin-top: 20px;
+}
+/* .introduction-section:hover{
+    background-color: rgb(245, 245, 191) ;
+  } */
+
+h3 {
+  padding-top: 20px;
+  font-size: 35px;
+  color: red;
+
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: blueviolet;
+}
+
+h4 {
+  font-size: 30px;
+  text-align: center;
+}
+
+span {
+  font-size: 40px;
+  color: brown;
+}
+
+.container {
+  display: flex;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+.introduction {
+  margin: 0 100px;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.profile-skills {
+  margin-top: 100px;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+
+.profile,
+.skills {
+  width: 400px;
+  /* background-color: aqua; */
+  padding: 20px;
+}
+
+.profile-para,
+.skills-para {
+  font-weight: 500;
+  font-size: 18px;
+  margin-left: 50px;
+}
+
+.profile-span,
+.skills-span {
+  font-weight: 600;
+  color: black;
+  margin-left: 50px;
+}
+
+.fa-calendar-check,
+.fa-envelope-open,
+.fa-user,
+.fa-flag {
+  color: #cc005f;
+}
+
+ul {
+  list-style: none;
+}
+
+.ul-profile {
+  margin-top: 30px;
+}
+
+.name,
+.dob,
+.email,
+.nationality {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.name-div,
+.dob-div,
+.email-div,
+.nationality-div {
+  margin: 0 0 0 20px;
+  padding-top: 10px;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+.ul-skills {
+  padding-top: 30px;
+  font-size: 20px;
+}
+.html-text{
+  margin-top: 0 !important;
+}
+.ul-skills li{
+  margin-top: 10px;
+}
+.html,
+.css,
+.javascript,
+.java,
+.github {
+  height: 20px;
+  background-color: rgb(90, 81, 81);
+  border-radius: 5px;
+}
+.css,
+.javascript,
+.java,
+.github {
+  margin-top: 10px;
+}
+.html-progress {
+  height: 20px;
+  width: 300px;
+  background-color: rgb(175, 11, 66);
+  color: white;
+  font-size: 16px;
+  text-align: right;
+}
+
+.css-progress {
+  height: 20px;
+  width: 250px;
+  background-color: rgb(175, 11, 66);
+  color: white;
+  font-size: 16px;
+  text-align: right;
+}
+
+.javascript-progress {
+  height: 20px;
+  width: 200px;
+  background-color: rgb(175, 11, 66);
+  color: white;
+  font-size: 16px;
+  text-align: right;
+}
+
+.java-progress {
+  height: 20px;
+  width: 150px;
+  background-color: rgb(175, 11, 66);
+  color: white;
+  font-size: 16px;
+  text-align: right;
+}
+
+.github-progress {
+  height: 20px;
+  width: 50px;
+  background-color: rgb(175, 11, 66);
+  color: white;
+  font-size: 16px;
+  text-align: right;
+}
+
+.html-progress,
+.css-progress,
+.javascript-progress,
+.java-progress,
+.github-progress {
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+/* .ul-skills li{
+  gap: 10px;
+} */
