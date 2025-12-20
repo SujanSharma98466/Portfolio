@@ -355,117 +355,126 @@ footer{
 }
 
 @media (max-width: 1024px) {
+
   /* Header */
   .header {
     height: auto !important;
     padding: 20px 10px !important;
   }
-  .hi { font-size: 45px !important; }
-  .hardwork, .frontend { font-size: 25px !important; }
-  .social { gap: 30px !important; }
-  .about .btn { font-size: 24px !important; padding: 4px !important; }
 
-  /* Introduction Section */
+  .hi { font-size: 45px !important; }
+  .hardwork,
+  .frontend { font-size: 25px !important; }
+
+  .social { gap: 30px !important; }
+  .about .btn { font-size: 24px !important; }
+
+  /* Introduction */
   .introduction-section {
-    margin: 0 50px !important;
+    margin: 0 40px !important;
     height: auto !important;
   }
+
   .container {
     flex-direction: column !important;
     align-items: center !important;
   }
+
   .my-picture {
     margin-left: 0 !important;
     margin-bottom: 20px !important;
   }
-  .introduction { margin: 10px 20px !important; font-size: 18px !important; }
 
-  /* Profile and Skills */
+  .introduction {
+    margin: 10px 20px !important;
+    font-size: 18px !important;
+  }
+
+  /* Profile & Skills layout */
   .profile-skills {
     flex-direction: column !important;
-    margin: 50px auto !important;
     width: 90% !important;
+    margin: 50px auto !important;
   }
-  .profile, .skills {
+
+  .profile,
+  .skills {
     width: 100% !important;
-    margin-bottom: 20px !important;
     padding: 10px !important;
   }
-  .profile-para, .skills-para, .profile-span, .skills-span {
+
+  .profile-span,
+  .skills-span,
+  .profile-para,
+  .skills-para {
     margin-left: 0 !important;
     text-align: center !important;
   }
 
-  /* Progress Bars */
-  .html-progress { width: 70% !important; }
-  .css-progress { width: 65% !important; }
-  .javascript-progress { width: 60% !important; }
-  .java-progress { width: 50% !important; }
-  .github-progress { width: 40% !important; }
+  /* IMPORTANT: parent skill bars */
+  .html,
+  .css,
+  .javascript,
+  .java,
+  .github {
+    width: 100% !important;
+  }
 
-  /* Sample Section */
-  .explore { font-size: 26px !important; }
-  .sample { font-size: 18px !important; }
-  .sample-webpage-image { width: 300px !important; height: auto !important; margin-top: 50px !important; }
-
-  /* Footer */
-  footer { font-size: 20px !important; }
-  .email-link { font-size: 40px !important; }
+  /* PROGRESS BAR FIX */
+  .html-progress,
+  .css-progress,
+  .javascript-progress,
+  .java-progress,
+  .github-progress {
+    max-width: 100% !important;
+    width: auto !important;
+    box-sizing: border-box !important;
+  }
 }
 
-/* Mobile phones */
+/* ---------- Mobile phones ---------- */
 @media (max-width: 480px) {
-  /* Header */
+
   .hi { font-size: 32px !important; }
-  .hardwork, .frontend { font-size: 20px !important; }
+  .hardwork,
+  .frontend { font-size: 20px !important; }
+
   .social { gap: 20px !important; }
-  .about .btn { font-size: 18px !important; padding: 3px !important; }
+  .about .btn { font-size: 18px !important; }
 
-  /* Introduction Section */
-  .introduction-section { margin: 0 20px !important; }
-  .introduction { font-size: 16px !important; }
-
-  /* Profile and Skills */
-  .profile-skills {
-    width: 95% !important;
-    margin: 30px auto !important;
-    flex-direction: column !important;
+  .introduction-section {
+    margin: 0 20px !important;
   }
-  .profile, .skills {
+
+  .introduction {
+    font-size: 16px !important;
+  }
+
+  .ul-profile li,
+  .ul-skills li {
+    font-size: 16px !important;
+  }
+
+  /* FINAL PROGRESS BAR WIDTHS (NO OVERFLOW POSSIBLE) */
+  .html-progress { width: 90% !important; }
+  .css-progress { width: 75% !important; }
+  .javascript-progress { width: 60% !important; }
+  .java-progress { width: 45% !important; }
+  .github-progress { width: 30% !important; }
+
+  .sample-webpage-image {
     width: 100% !important;
-    padding: 10px !important;
+    max-width: 260px !important;
+    height: auto !important;
   }
-  .profile-para, .skills-para, .profile-span, .skills-span { font-size: 18px !important; }
 
-  .ul-profile li, .ul-skills li { font-size: 16px !important; }
-
-  /* Progress Bars */
-  .html-progress { width: 100% !important; }
-  .css-progress { width: 90% !important; }
-  .javascript-progress { width: 80% !important; }
-  .java-progress { width: 70% !important; }
-  .github-progress { width: 60% !important; }
-
-  /* Sample Section */
-  .explore { font-size: 22px !important; }
-  .sample { font-size: 16px !important; }
-  .sample-webpage-image { width: 100% !important; max-width: 250px !important; margin-top: 30px !important; }
-
-  /* Footer */
   footer { font-size: 18px !important; }
   .email-link { font-size: 35px !important; }
 }
 
-/* Extra small devices (<360px) */
+/* ---------- Extra safety (very small devices) ---------- */
 @media (max-width: 360px) {
-  .hi { font-size: 28px !important; }
-  .hardwork, .frontend { font-size: 18px !important; }
-  .btn { font-size: 16px !important; padding: 2px !important; }
-  .introduction { font-size: 14px !important; }
-  .profile-para, .skills-para, .profile-span, .skills-span { font-size: 16px !important; }
-  .ul-profile li, .ul-skills li { font-size: 14px !important; }
-  .explore { font-size: 20px !important; }
-  .sample { font-size: 14px !important; }
-  .sample-webpage-image { max-width: 200px !important; margin-top: 20px !important; }
-  .email-link { font-size: 30px !important; }
+  html, body {
+    overflow-x: hidden !important;
+  }
 }
