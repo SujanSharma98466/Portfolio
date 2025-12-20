@@ -356,125 +356,165 @@ footer{
 
 @media (max-width: 1024px) {
 
-  /* Header */
-  .header {
-    height: auto !important;
-    padding: 20px 10px !important;
+  /* Global safety */
+  html, body {
+    overflow-x: hidden;
   }
 
-  .hi { font-size: 45px !important; }
-  .hardwork,
-  .frontend { font-size: 25px !important; }
+  /* Header */
+  .header {
+    height: auto;
+    padding: 30px 15px;
+  }
 
-  .social { gap: 30px !important; }
-  .about .btn { font-size: 24px !important; }
+  .hardwork { font-size: 28px; }
+  .hi { font-size: 42px; }
+  .frontend { font-size: 26px; }
 
-  /* Introduction */
+  .social {
+    gap: 30px;
+  }
+
+  .icons {
+    font-size: 45px;
+  }
+
+  .btn {
+    font-size: 24px;
+  }
+
+  /* Introduction section */
   .introduction-section {
-    margin: 0 40px !important;
-    height: auto !important;
+    margin: 30px;
+    height: auto;
   }
 
   .container {
-    flex-direction: column !important;
-    align-items: center !important;
+    flex-direction: column;
+    align-items: center;
   }
 
   .my-picture {
-    margin-left: 0 !important;
-    margin-bottom: 20px !important;
+    margin: 0 0 20px 0;
   }
 
   .introduction {
-    margin: 10px 20px !important;
-    font-size: 18px !important;
+    margin: 0 30px;
+    font-size: 18px;
+    text-align: center;
   }
 
-  /* Profile & Skills layout */
+  /* Profile & Skills */
   .profile-skills {
-    flex-direction: column !important;
-    width: 90% !important;
-    margin: 50px auto !important;
+    flex-direction: column;
+    width: 90%;
+    margin: 50px auto;
   }
 
   .profile,
   .skills {
-    width: 100% !important;
-    padding: 10px !important;
+    width: 100%;
+    padding: 20px;
   }
 
   .profile-span,
   .skills-span,
   .profile-para,
   .skills-para {
-    margin-left: 0 !important;
-    text-align: center !important;
+    margin-left: 0;
+    text-align: center;
   }
 
-  /* IMPORTANT: parent skill bars */
+  /* Skill bars (GLOBAL FIX) */
   .html,
   .css,
   .javascript,
   .java,
   .github {
-    width: 100% !important;
+    width: 100%;
+    overflow: hidden;
   }
 
-  /* PROGRESS BAR FIX */
   .html-progress,
   .css-progress,
   .javascript-progress,
   .java-progress,
   .github-progress {
-    max-width: 100% !important;
-    width: auto !important;
-    box-sizing: border-box !important;
+    max-width: 100%;
+  }
+
+  /* Sample project */
+  .sample-webpage-image {
+    width: 320px;
+    height: auto;
+    margin-top: 50px;
   }
 }
 
-/* ---------- Mobile phones ---------- */
-@media (max-width: 480px) {
+/* ================= MOBILE PHONES ================= */
+@media (max-width: 600px) {
 
-  .hi { font-size: 32px !important; }
-  .hardwork,
-  .frontend { font-size: 20px !important; }
+  /* Header */
+  .hardwork { font-size: 20px; }
+  .hi { font-size: 30px; }
+  .frontend { font-size: 18px; }
 
-  .social { gap: 20px !important; }
-  .about .btn { font-size: 18px !important; }
-
-  .introduction-section {
-    margin: 0 20px !important;
+  .icons {
+    font-size: 36px;
   }
+
+  .btn {
+    font-size: 18px;
+  }
+
+  /* Introduction */
+  h3 { font-size: 26px; }
+  h4 { font-size: 22px; }
 
   .introduction {
-    font-size: 16px !important;
+    font-size: 16px;
+    margin: 0 15px;
   }
 
+  /* Profile & skills text */
   .ul-profile li,
   .ul-skills li {
-    font-size: 16px !important;
+    font-size: 16px;
   }
 
-  /* FINAL PROGRESS BAR WIDTHS (NO OVERFLOW POSSIBLE) */
-  .html-progress { width: 90% !important; }
-  .css-progress { width: 75% !important; }
-  .javascript-progress { width: 60% !important; }
-  .java-progress { width: 45% !important; }
-  .github-progress { width: 30% !important; }
+  /* Progress bar visual scaling */
+  .html-progress { width: 90%; }
+  .css-progress { width: 75%; }
+  .javascript-progress { width: 60%; }
+  .java-progress { width: 45%; }
+  .github-progress { width: 30%; }
 
+  /* Sample project */
   .sample-webpage-image {
-    width: 100% !important;
-    max-width: 260px !important;
-    height: auto !important;
+    width: 100%;
+    max-width: 260px;
   }
 
-  footer { font-size: 18px !important; }
-  .email-link { font-size: 35px !important; }
+  footer {
+    font-size: 18px;
+  }
+
+  .email-link {
+    font-size: 32px;
+  }
 }
 
-/* ---------- Extra safety (very small devices) ---------- */
+/* ================= VERY SMALL DEVICES ================= */
 @media (max-width: 360px) {
-  html, body {
-    overflow-x: hidden !important;
+
+  .hi { font-size: 26px; }
+  .hardwork { font-size: 18px; }
+  .frontend { font-size: 16px; }
+
+  .btn { font-size: 16px; }
+
+  .introduction {
+    font-size: 14px;
   }
 }
+    
