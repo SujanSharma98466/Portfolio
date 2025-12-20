@@ -11,7 +11,8 @@ body {
 .header {
   padding-top: 20px;
   height: 700px;
-  background-image: url("background.jpg");
+  /* background-image: url("background.jpg"); */
+  background-color: black;
 }
 
 .hardwork {
@@ -71,8 +72,12 @@ body {
 }
 
 .about {
-  text-align: center;
+  /* text-align: center; */
+  width: 100%;
   padding-top: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .btn {
@@ -82,11 +87,11 @@ body {
   padding: 5px;
   border-radius: 15%;
   color: aliceblue;
-  background-color: rgb(207, 104, 19);
+  background-color: rgb(68, 74, 110);
 }
 
 .btn:hover {
-  background-color: rgb(168, 81, 9);
+  background-color: rgb(199, 10, 51);
 }
 
 .social {
@@ -101,11 +106,14 @@ body {
   color: white;
   text-align: center;
 }
+.icons:hover{
+  color: rgb(255, 0, 0);
+}
 
 .introduction-section {
   background-color: rgb(238, 231, 231);
-  height: 500px;
-  margin-top: 20px;
+  /* height: 500px; */
+  /* margin-top: 20px; */
 }
 /* .introduction-section:hover{
     background-color: rgb(245, 245, 191) ;
