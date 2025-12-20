@@ -335,3 +335,19 @@ ul {
 .sample-webpage-image:hover{
  transform: scale(1.2);
 }
+.footer-text{
+  color: #516d72;
+  font-weight: 600;
+}
+footer{
+  margin-top: 70px;
+  text-align: center;
+  font-size: 25px;
+}
+.email-link{
+  display: block;
+  font-size: 50px;
+}
+.email-btn{
+  color: rgb(37, 128, 226);
+}
