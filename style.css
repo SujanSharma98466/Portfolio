@@ -106,24 +106,26 @@ body {
   color: white;
   text-align: center;
 }
-.icons:hover{
+.icons:hover {
   color: rgb(255, 0, 0);
 }
 
 .introduction-section {
   background-color: rgb(238, 231, 231);
-  /* height: 500px; */
-  /* margin-top: 20px; */
+  height: 450px;
+  /* border: 0.5px solid black; */
+  border-radius: 20px;
+  margin:0 165px 0 165px;
+  box-shadow: 5px 5px 5px 5px rgb(204, 166, 166);
 }
 /* .introduction-section:hover{
     background-color: rgb(245, 245, 191) ;
   } */
 
-h3 {
+h3 { text-align: center;
   padding-top: 20px;
   font-size: 35px;
   color: red;
-
   text-align: center;
   text-decoration: underline;
   text-decoration-color: blueviolet;
@@ -134,7 +136,7 @@ h4 {
   text-align: center;
 }
 
-span {
+.intro-span {
   font-size: 40px;
   color: brown;
 }
@@ -143,24 +145,29 @@ span {
   display: flex;
 }
 
-img {
+.my-picture {
   height: 200px;
   width: 200px;
   margin-left: 100px;
   margin-bottom: 20px;
+  border-radius: 10px;
 }
 
 .introduction {
   margin: 0 100px;
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 10px;
+
 }
 
 .profile-skills {
-  margin-top: 100px;
+  margin: 100px 0 0 180px;
   display: flex;
   gap: 100px;
-  justify-content: center;
+  justify-content: ;
+  width: 1000px;
+  border: 2px solid rgb(218, 113, 113);
+  border-radius: 20px;
 }
 
 .profile,
@@ -179,8 +186,9 @@ img {
 
 .profile-span,
 .skills-span {
+  font-size: 32px;
   font-weight: 600;
-  color: black;
+
   margin-left: 50px;
 }
 
@@ -221,10 +229,10 @@ ul {
   padding-top: 30px;
   font-size: 20px;
 }
-.html-text{
+.html-text {
   margin-top: 0 !important;
 }
-.ul-skills li{
+.ul-skills li {
   margin-top: 10px;
 }
 .html,
@@ -299,3 +307,31 @@ ul {
 /* .ul-skills li{
   gap: 10px;
 } */
+.explore {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: px;
+  text-decoration-color: rgb(107, 211, 11);
+  text-decoration-thickness: 3px;
+}
+.sample {
+  text-align: center;
+  font-size: 22px;
+  color: rgb(54, 34, 34);
+}
+.sample-webpage-image {
+  width: 400px;
+  height: 500px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px !important;
+  border: 2px solid rgb(226, 224, 70);
+  border-radius: 5px;
+  padding: 20px;
+}
+.sample-webpage-image:hover{
+ transform: scale(1.2);
+}
