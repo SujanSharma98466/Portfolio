@@ -343,8 +343,10 @@ footer{
   margin-top: 70px;
   text-align: center;
   font-size: 25px;
+  margin-bottom: 50px;
 }
 .email-link{
+  margin-top: 20px;
   display: block;
   font-size: 50px;
 }
