@@ -353,3 +353,192 @@ footer{
 .email-btn{
   color: rgb(37, 128, 226);
 }
+@media (max-width: 768px) {
+
+  /* ================= GLOBAL ================= */
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* ================= HEADER ================= */
+  .header {
+    height: auto;
+    padding: 30px 15px;
+  }
+
+  .hardwork {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .hi {
+    font-size: 32px;
+    text-align: center;
+    animation: none;
+  }
+
+  .frontend {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .social {
+    gap: 30px;
+  }
+
+  .icons {
+    font-size: 40px;
+  }
+
+  .btn {
+    font-size: 20px;
+    padding: 8px 14px;
+  }
+
+  /* ================= INTRO SECTION ================= */
+  .introduction-section {
+    margin: 15px;
+    height: auto;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 22px;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .my-picture {
+    width: 150px;
+    height: 150px;
+    margin: 0;
+  }
+
+  .introduction {
+    margin: 15px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.6;
+  }
+
+  /* ================= PROFILE + SKILLS ================= */
+  .profile-skills {
+    margin: 30px 10px;
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .profile,
+  .skills {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .profile-span,
+  .skills-span {
+    font-size: 24px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .profile-para,
+  .skills-para {
+    margin-left: 0;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .ul-profile li,
+  .ul-skills li {
+    font-size: 16px;
+  }
+
+  /* ================= PROGRESS BAR CONTAINERS ================= */
+  .html,
+  .css,
+  .javascript,
+  .java,
+  .github {
+    width: 100%;
+    height: 28px;
+    overflow: hidden;
+  }
+
+  /* ================= PROGRESS BARS (PERCENT BASED) ================= */
+  .html-progress {
+    width: 90%;
+    height: 100%;
+    line-height: 28px;
+    font-size: 14px;
+    margin-top: 0;
+  }
+
+  .css-progress {
+    width: 75%;
+    height: 100%;
+    line-height: 28px;
+    font-size: 14px;
+    margin-top: 0;
+  }
+
+  .javascript-progress {
+    width: 50%;
+    height: 100%;
+    line-height: 28px;
+    font-size: 14px;
+    margin-top: 0;
+  }
+
+  .java-progress {
+    width: 35%;
+    height: 100%;
+    line-height: 28px;
+    font-size: 14px;
+    margin-top: 0;
+  }
+
+  .github-progress {
+    width: 20%;
+    height: 100%;
+    line-height: 28px;
+    font-size: 14px;
+    margin-top: 0;
+  }
+
+  /* ================= SAMPLE PROJECT ================= */
+  .explore {
+    font-size: 24px;
+  }
+
+  .sample {
+    font-size: 18px;
+  }
+
+  .sample-webpage-image {
+    width: 90%;
+    height: auto;
+    margin-top: 40px;
+  }
+
+  /* ================= FOOTER ================= */
+  footer {
+    font-size: 18px;
+  }
+
+  .email-link {
+    font-size: 40px;
+  }
+}
