@@ -453,12 +453,12 @@ footer {
   }
 
   .my-picture {
-    width: min(40vw, 160px);
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
+    width: min(45vw, 180px);
+    height: auto;
   }
+   
   
-  }
+  
 
   .introduction {
     margin: 15px;
@@ -576,6 +576,7 @@ footer {
     font-size: 40px;
   }
 }
+
 
 
 
