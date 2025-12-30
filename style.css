@@ -385,13 +385,7 @@ footer {
 .email-btn:hover {
   transform: scale(1.2);
 }
-@media (max-width: 430px) { 
-  .my-picture {
-    width: 150px;
-    height: 150px;
-    margin: 0;
-}  
-}
+
 @media (max-width: 768px) {
   /* ================= GLOBAL ================= */
   * {
@@ -459,9 +453,11 @@ footer {
   }
 
   .my-picture {
-    width: 150px;
-    height: 150px;
-    margin: 0;
+    width: min(40vw, 160px);
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+  
   }
 
   .introduction {
@@ -580,5 +576,6 @@ footer {
     font-size: 40px;
   }
 }
+
 
 
